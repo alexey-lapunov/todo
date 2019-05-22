@@ -1,0 +1,36 @@
+.tl-search-panel {
+  &_input {
+    width: 100%;
+
+    input {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #CED4DA;
+      transition: border .25s;
+      padding: 10px;
+      background: none;
+  
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+      }
+  
+      &:hover, &:focus {
+          text-decoration: none;
+      }
+  
+      &:hover, &:focus {
+          border-bottom-color: rgba(0, 0 , 0, 0.6);
+      }
+  
+      &:active {
+          border-bottom-color: black;
+      }
+    }
+  }
+
+  &-filter {
+    display: flex;
+  }
+}
